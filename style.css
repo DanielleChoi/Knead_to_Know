@@ -1,4 +1,13 @@
 
 html, body{
-    background-color: rgb(248, 202, 132);
+    background-color: rgb(249 212 166)
+}
+
+canva{
+    display: block;
+}
+
+.topBar{
+    background-color: rgb(210 152 111)
+    
 }
