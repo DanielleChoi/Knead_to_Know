@@ -7,7 +7,7 @@ canva{
     display: block;
 }
 
-.topBar{
-    background-color: rgb(210 152 111)
-    
+.TopBar{
+    background-color: rgb(210 152 111);
+    margin-bottom: 80px;
 }
