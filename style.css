@@ -1,1 +1,20 @@
+/* Apply the background color to the body */
+body {
+    background-color: #FFE6A7;
+    font-family: 'Gluten', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
+/* Style for the header with the word "Bread" */
+header {
+    background-color: #D2986F;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+    margin: 0;
+}
