@@ -16,9 +16,10 @@ h1 {
    color:  rgb(255, 255, 255);
    font-family: 'Gluten', sans-serif;
    font-size: 3em;
-   margin: 0;
+   margin: full;
 }
 
 .homebread{
     margin-top:100px;
+    margin-left:200px;
 }
