@@ -10,11 +10,14 @@ canva{
 .TopBar{
     background-color: rgb(210 152 111);
     margin-bottom: 80px;
-    font-family: "Gluten"
+    font-family: "Gluten";
+    padding: 20px; 
+
 }
 
 .Title{
     color:rgb(65, 22, 9);
+    font-family: "Gluten"
 }
 
 .startbutton{
