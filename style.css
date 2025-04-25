@@ -31,7 +31,7 @@ h1 {
 }
 .slice{
     position:fixed;
-    margin:left 50%;
+    margin-left:120px;
     margin-top:-50px;
 }
 
