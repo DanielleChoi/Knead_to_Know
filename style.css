@@ -24,6 +24,11 @@ canva{
     font-family: "Gluten"
 }
 
+.recipePaper{
+    color:white;
+    width: 1500px;
+    length: 5000px;
+}
 .RecipeInfo{
     margin-top: 1600 px;
     margin-left:100 px;
