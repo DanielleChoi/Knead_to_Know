@@ -27,21 +27,21 @@ h1 {
 .topbread{
     position:fixed;
     margin-top:-50px;
-    margin:left 30%;
+    margin:left 35%;
 }
 .slice{
     position:fixed;
-    margin-left:260px;
+    margin-left:290px;
     margin-top:-50px;
 }
 .butter{
     position:fixed;
-    margin-left:550px;
+    margin-left:580px;
     margin-top:-51px;  
 }
 .resources{
     position:fixed;
-    margin-left:885px;
+    margin-left:900px;
     margin-top:-50px; 
 }
 .login{
