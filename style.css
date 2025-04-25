@@ -4,14 +4,6 @@ body {
     color:#FFE6A7;
 }
 
-/* Style for the header with the word "Bread" */
-header {
-    background-color: #D2986F;
-    color:#D2986F;
-    text-align: center;
-    padding: 20px;
-}
-
 h1 {
    color:  rgb(255, 255, 255);
    font-family: 'Gluten', sans-serif;
