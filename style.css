@@ -21,7 +21,7 @@ h1 {
 
 .homebread{
     margin-top:-115px;
-    margin-left:-60px;
+    margin: left 25%;;
 }
 .topbread{
     position:fixed;
