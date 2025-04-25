@@ -26,9 +26,8 @@ canva{
 
 .recipePaper{
     position: fixed;
-    top: 180px;
-    right: 200px;
-    width: 45%;
+    margin:auto;
+    width: 50%;
     height: 3000px;
     background:white;
    
