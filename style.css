@@ -26,9 +26,12 @@ canva{
 
 .recipePaper{
     position: fixed;
-    color:white;
-    width: 1500px;
-    length: 5000px;
+    top: 180px;
+    right: 20px;
+    width: 68%;
+    height: 3000px;
+    background:white;
+   
 }
 .RecipeInfo{
     margin-top: 1600 px;
