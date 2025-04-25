@@ -26,5 +26,5 @@ h1 {
 .topbread{
     position:fixed;
     margin-top:-60px;
-    left:210px;
+    margin:left 30%;
 }
