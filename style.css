@@ -46,6 +46,6 @@ h1 {
 }
 .login{
     position:fixed;
-    margin-left:1000px;
+    margin: right 25%;
     margin-top:-50px; 
 }
