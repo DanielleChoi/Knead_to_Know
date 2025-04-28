@@ -36,7 +36,10 @@ canva{
    
 }
 .RecipeInfo{
-    margin-top: 1600 px;
-    margin-left:100 px;
+    position: absolute;
+    top: 5%;
+    left:50%;
+    width: 50%;
+    transform:translate(-50%,5%);
 
 }
