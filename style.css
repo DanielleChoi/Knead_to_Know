@@ -49,3 +49,49 @@ h1 {
     margin-left:1450px;
     margin-top:-70px; 
 }
+html, body{
+    background-color: rgb(249 212 166)
+}
+
+canva{
+    display: block;
+}
+
+.TopBar{
+    background-color: rgb(210 152 111);
+    margin-bottom: 80px;
+    font-family: "Gluten";
+    padding: 20px; 
+
+}
+
+.h1{
+    color:rgb(65, 22, 9);
+    font-family: "Gluten" 
+}
+.TestPageTitle{
+    color:rgb(65, 22, 9);
+    font-family: "Gluten"
+}
+
+.recipePaper{
+    position: absolute;
+    top: 5%;
+    left:50%;
+    width: 50%;
+    transform:translate(-50%,5%);
+    height: 3000px;
+    background:white;
+    z-index: -10;
+   
+}
+.RecipeInfo{
+    position: absolute;
+    top: 5%;
+    left:50%;
+    width: 50%;
+    transform:translate(-50%,5%);
+    z-index: 3;
+
+
+}
