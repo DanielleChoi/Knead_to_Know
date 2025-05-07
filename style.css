@@ -24,12 +24,12 @@ canva{
 .TestPageTitle{
     position:relative;
     color:rgb(65, 22, 9);
-    font-family: "Gluten"
+    font-family: "Gluten";
     padding: 0px;
 }
 
 .RecipeInfo{
-    position: absolute;
+    position: fixed;
     top:-50px;
     left: 100px;
 
