@@ -33,7 +33,7 @@ canva{
     transform:translate(-50%,2%);
     height: 3000px;
     background:white;
-    z-index: -10;
+    z-index: -1;
    
 }
 .RecipeInfo{
