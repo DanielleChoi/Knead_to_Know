@@ -21,7 +21,7 @@ canva{
     font-family: "Gluten" 
 }
 .TestPageTitle{
-    position:fixed;
+    position:relative;
     color:rgb(65, 22, 9);
     font-family: "Gluten"
 }
