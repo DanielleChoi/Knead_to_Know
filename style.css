@@ -26,12 +26,12 @@ canva{
 
 .recipePaper{
     position:relative;
-    top: 10px;
+    top: 20px;
     bottom: 30px;
     left:50%;
     width: 70%;
     transform:translate(-50%,2%);
-    height: 3000px;
+    height: 2000px;
     background:white;
 
    
