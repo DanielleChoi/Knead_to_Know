@@ -27,6 +27,13 @@ canva{
     padding: 0px;
 }
 
+.RecipeInfo{
+    position: absolute;
+    top:-50px;
+    left: 100px;
+
+}
+
 .recipePaper{
     position:relative;
     top: 20px;
@@ -38,10 +45,4 @@ canva{
     background:white;
 
    
-}
-.RecipeInfo{
-    position: absolute;
-    top:-50px;
-    left: 100px;
-
 }
