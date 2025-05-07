@@ -37,8 +37,8 @@ canva{
    
 }
 .RecipeInfo{
-    position: relative;
-    top: 200px;
+    position: fixed;
+    top: 100px;
     left:50%;
     z-index: 3;
 
