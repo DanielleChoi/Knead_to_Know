@@ -25,10 +25,11 @@ canva{
 }
 
 .recipePaper{
-    position:absolute;
+    position:fixed;
     top: 10px;
+    bottom: 30px;
     left:50%;
-    width: 50%;
+    width: 70%;
     transform:translate(-50%,2%);
     height: 3000px;
     background:white;
