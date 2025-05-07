@@ -17,9 +17,11 @@ canva{
 
 .h1{
     color:rgb(65, 22, 9);
+    position: fixed;
     font-family: "Gluten" 
 }
 .TestPageTitle{
+    position:fixed;
     color:rgb(65, 22, 9);
     font-family: "Gluten"
 }
