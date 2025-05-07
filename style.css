@@ -30,9 +30,9 @@ canva{
     position:relative;
     top: 20px;
     bottom: 30px;
-    left:50%;
+    left:200px;
     width: 70%;
-    transform:translate(-50%,2%);
+    transform:translate(-200px,100px);
     height: 2000px;
     background:white;
 
@@ -40,5 +40,7 @@ canva{
 }
 .RecipeInfo{
     position: relative;
+    top:50px;
+    left: 100px;
 
 }
