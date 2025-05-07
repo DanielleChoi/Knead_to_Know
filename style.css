@@ -36,11 +36,10 @@ canva{
    
 }
 .RecipeInfo{
-    position: absolute;
+    position: fixed;
     top: 5%;
     left:50%;
     width: 50%;
-    transform:translate(-50%,5%);
     z-index: 3;
 
 
