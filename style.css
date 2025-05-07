@@ -29,8 +29,8 @@ canva{
     top: 50px;
     left:50%;
     width: 50%;
-    transform:translate(-50%,5%);
-    height: 1000px;
+    transform:translate(-50%,3%);
+    height: 3000px;
     background:white;
     z-index: -10;
    
