@@ -34,7 +34,7 @@ canva{
     bottom: 30px;
     left:600px;
     width: 58%;
-    transform:translate(-200px,-50px);
+    transform:translate(-200px,50px);
     height: 2000px;
     background:white;
     z-index: 0;
