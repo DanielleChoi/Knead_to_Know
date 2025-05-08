@@ -46,3 +46,34 @@ canva{
     z-index: 1; /* on top of recipePaper */
     padding: 20px;
 }
+
+.QuizSection {
+    margin-top: 100px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+
+.QuizSection h3 {
+    margin-bottom: 10px;
+}
+
+.QuizSection p {
+    margin: 10px 0 5px;
+}
+
+.QuizSection label {
+    display: block;
+    margin-left: 10px;
+}
+
+.QuizSection button {
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
