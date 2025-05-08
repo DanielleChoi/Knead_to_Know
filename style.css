@@ -37,6 +37,7 @@ canva{
     transform:translate(-200px,100px);
     height: 2000px;
     background:white;
+    z-index:-2;
 
    
 }
