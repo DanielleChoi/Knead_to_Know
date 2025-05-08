@@ -71,9 +71,10 @@ canva{
 .QuizSection button {
     margin-top: 15px;
     padding: 8px 16px;
-    background-color: #4CAF50;
+    background-color: rgb(65, 22, 9);
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-family: "Gluten";
 }
