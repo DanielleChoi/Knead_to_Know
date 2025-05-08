@@ -28,25 +28,20 @@ canva{
     padding: 0px;
 }
 
-.recipePaper{
-    position: absolute;
+.recipePaper {
+    position: relative; /* Changed from absolute */
+    width: 58%;
+    height: 2000px;
+    background: white;
+    margin-left: 400px; /* instead of transform for centering */
+    z-index: 0; /* stacking base */
     top: 10px;
     bottom: 30px;
-    left:600px;
-    width: 58%;
-    transform:translate(-200px,200px);
-    height: 2000px;
-    background:white;
-    z-index: -1;
-
-
-   
 }
 
-.RecipeInfo{
+.RecipeInfo {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
-
+    z-index: 1; /* on top of recipePaper */
 }
