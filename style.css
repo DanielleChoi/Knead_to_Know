@@ -19,7 +19,7 @@ canva{
 .h1{
     color:rgb(65, 22, 9);
     position: fixed;
-    font-family: "Gluten" 
+    font-family: "Gluten" ;
 }
 .TestPageTitle{
     position:relative;
@@ -52,7 +52,7 @@ canva{
     padding: 20px;
     background: #f9f9f9;
     border-radius: 8px;
-    font-family: sans-serif;
+    font-family: "Gluten";
 }
 
 .QuizSection h3 {
