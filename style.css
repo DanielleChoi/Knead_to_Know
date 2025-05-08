@@ -6,12 +6,61 @@ body {
 
 /* Style for the header with the word "Bread" */
 
+header {
+    background-color: #D2986F;
+    color:#D2986F;
+    text-align: center;
+    padding: 10px;
+    margin:-10px;
+}
 
-h1 {
+/* h1 {
    color:  rgb(255, 255, 255);
    font-family: 'Gluten', sans-serif;
    font-size: 3em;
-   margin: 0;
+   margin: 5px;
+}
+
+.homebread{
+    margin-top:-105px;
+    margin-left:-40px;
+}
+.topbread{
+    position:fixed;
+    margin-top:-50px;
+    margin:left 40%;
+}
+.slice{
+    position:fixed;
+    margin-left:350px;
+    margin-top:-50px;
+}
+.butter{
+    position:fixed;
+    margin-left:730px;
+    margin-top:-51px;  
+}
+.resources{
+    position:fixed;
+    margin-left:1100px;
+    margin-top:-50px; 
+}
+.login{
+    position:fixed;
+    margin-left:1450px;
+    margin-top:-70px; 
+} */
+
+
+/* EVERYTHING ABOVE IS TOP BAR */
+.header{
+    z-index:-10;
+}
+
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 10;
 }
 
 .rectangle {
