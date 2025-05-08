@@ -32,6 +32,7 @@ canva{
     position: relative;
     top:-50px;
     left: 600px;
+    z-index: 2;
 
 }
 
