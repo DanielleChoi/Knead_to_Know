@@ -105,18 +105,10 @@
           result = "Please answer all questions!";
       }
   
+      alert(result);
       document.getElementById("result").textContent = result;
   }
-  </script>
-  
-  <button type="submit">Find Out What Bread You Are</button>
-</form>
 
-<p id="result"></p>
-alert(result); 
-
-
-<script>
     // Add event listener to the form
     document.getElementById("breadQuiz").addEventListener("submit", calculateBreadResult);
 </script>
