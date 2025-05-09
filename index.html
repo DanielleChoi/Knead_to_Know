@@ -47,34 +47,67 @@
         <label><input type="radio" name="q3" value="7"> I don't go home, too many extracurriculars :')</label><br>
 
         <p>4. You see a little girl selling chocolates at the entrance of the grocery store. You…</p>
-        <label><input type="radio" name="q4" value="a">Buy a few from her</label><br>
-        <label><input type="radio" name="q4" value="b"> Avoid all eye contact and keep walking in</label><br>
-        <label><input type="radio" name="q4" value="c"> Give up, you can always go to the store later</label><br>
-        <label><input type="radio" name="q4" value="d"> Strike up a conversation with her</label><br>
+        <label><input type="radio" name="q4" value="4">Buy a few from her</label><br>
+        <label><input type="radio" name="q4" value="1"> Avoid all eye contact and keep walking in</label><br>
+        <label><input type="radio" name="q4" value="2"> Give up, you can always go to the store later</label><br>
+        <label><input type="radio" name="q4" value="7"> Strike up a conversation with her</label><br>
 
         <p>5. When the teacher calls on you, what do you do</p>
-        <label><input type="radio" name="q5" value="a"> Awkwardly stare at them</label><br>
-        <label><input type="radio" name="q5" value="b">Give a strong confident answer even if youre unsure</label><br>
-        <label><input type="radio" name="q5" value="c"> try your best and cry after</label><br>
-        <label><input type="radio" name="q5" value="d"> Pretend you didnt hear them</label><br>
+        <label><input type="radio" name="q5" value="1"> Awkwardly stare at them</label><br>
+        <label><input type="radio" name="q5" value="6">Give a strong confident answer even if youre unsure</label><br>
+        <label><input type="radio" name="q5" value="2"> try your best and cry after</label><br>
+        <label><input type="radio" name="q5" value="3"> Pretend you didnt hear them</label><br>
 
         <p>6. When the waiter spills soup on you, what do you do</p>
-        <label><input type="radio" name="q6" value="a"> Apologize to them</label><br>
-        <label><input type="radio" name="q6" value="b"> Yell at the them</label><br>
-        <label><input type="radio" name="q6" value="c"> Clean the soup and act like nothing happened</label><br>
-        <label><input type="radio" name="q6" value="d"> CRY</label><br>
+        <label><input type="radio" name="q6" value="3"> Apologize to them</label><br>
+        <label><input type="radio" name="q6" value="1"> Yell at the them</label><br>
+        <label><input type="radio" name="q6" value="6"> Clean the soup and act like nothing happened</label><br>
+        <label><input type="radio" name="q6" value="5"> CRY</label><br>
 
         <p>7. You just fail your math test, what do you do</p>
-        <label><input type="radio" name="q7" value="a"> Just go on with your day</label><br>
-        <label><input type="radio" name="q7" value="b"> Roadtrip to wherever!</label><br>
-        <label><input type="radio" name="q7" value="c"> A nice sunny beach day</label><br>
-        <label><input type="radio" name="q7" value="d"> NONE. I'm staying home</label><br>
+        <label><input type="radio" name="q7" value="5"> Just go on with your day</label><br>
+        <label><input type="radio" name="q7" value="2"> Roadtrip to wherever!</label><br>
+        <label><input type="radio" name="q7" value="4"> A nice sunny beach day</label><br>
+        <label><input type="radio" name="q7" value="7"> NONE. I'm staying home</label><br>
         <button type="submit">Submit Answers</button>
     </form>
 </div>
 </div>
 
-
+<script>
+  function calculateBreadResult(event) {
+      event.preventDefault();
+  
+      let total = 0;
+      const form = document.getElementById("breadQuiz");
+      const formData = new FormData(form);
+  
+      for (let [name, value] of formData.entries()) {
+          total += parseInt(value);
+      }
+  
+      let result;
+      if (total >= 7 && total <= 11) {
+          result = "Rye Bread";
+      } else if (total >= 12 && total <= 16) {
+          result = "Baguette";
+      } else if (total >= 17 && total <= 21) {
+          result = "Croissant";
+      } else if (total >= 22 && total <= 26) {
+          result = "White Bread";
+      } else if (total >= 27 && total <= 31) {
+          result = "Sourdough";
+      } else if (total >= 32 && total <= 36) {
+          result = "Focaccia";
+      } else if (total >= 37 && total <= 42) {
+          result = "Pita";
+      } else {
+          result = "Please answer all questions!";
+      }
+  
+      document.getElementById("result").textContent = result;
+  }
+  </script>
   
 </main>
 </body>
