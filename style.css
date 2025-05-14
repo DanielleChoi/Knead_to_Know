@@ -42,8 +42,8 @@ canva{
 .RecipeInfo {
     position: absolute;
     top: 0;
-    left: 0px;
-    z-index: 1; /* on top of recipePaper */
+    left: 10%;
+    z-index: 1; 
     padding: 20px;
 }
 
