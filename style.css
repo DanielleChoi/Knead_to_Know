@@ -30,7 +30,7 @@ canva{
 
 .recipePaper {
     position: relative; /* Changed from absolute */
-    width: 55%;
+    width: 50%;
     height: 2000px;
     background: white;
     margin-left:25%; /* instead of transform for centering */
