@@ -42,7 +42,7 @@ canva{
 .RecipeInfo {
     position: absolute;
     top: 0;
-    left: 10%;
+    left: 15%;
     z-index: 1; 
     padding: 20px;
 }
