@@ -1,11 +1,9 @@
-/* Apply the background color to the body */
 body {
     background-color: #FFE6A7;
     color:#FFE6A7;
 }
 
 /* Style for the header with the word "Bread" */
-
 header {
     background-color: #D2986F;
     color:#D2986F;
@@ -14,7 +12,7 @@ header {
     margin:-10px;
 }
 
-/* h1 {
+h1 {
    color:  rgb(255, 255, 255);
    font-family: 'Gluten', sans-serif;
    font-size: 3em;
@@ -49,7 +47,7 @@ header {
     position:fixed;
     margin-left:1450px;
     margin-top:-70px; 
-} */
+}
 
 
 /* EVERYTHING ABOVE IS TOP BAR */
