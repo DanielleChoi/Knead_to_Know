@@ -33,7 +33,7 @@ canva{
     width: 55%;
     height: 2000px;
     background: white;
-    margin-left: 400px; /* instead of transform for centering */
+    margin-left:25%; /* instead of transform for centering */
     z-index: 0; /* stacking base */
     top: 10px;
     bottom: 30px;
