@@ -8,19 +8,27 @@ canva{
 }
 
 
-.h1{
-    color:rgb(65, 22, 9);
-    position: fixed;
-    font-family: "Gluten" ;
-    
-}
-
 .header {
     background-color: #D2986F;
     color:#D2986F;
     text-align: center;
     padding: 10px;
     margin:-10px;
+}
+
+h1 {
+    color:  rgb(255, 255, 255);
+    font-family: 'Gluten', sans-serif;
+    font-size: 3em;
+    margin: 5px;
+ }
+
+ 
+.h2{
+    color:rgb(65, 22, 9);
+    position: fixed;
+    font-family: "Gluten" ;
+    
 }
 .homebread{
     margin-top:-105px;
