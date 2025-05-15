@@ -29,12 +29,12 @@ canva{
 }
 
 .recipePaper {
-    position: relative; /* Changed from absolute */
+    position: relative; 
     width: 50%;
     height: 2000px;
     background: white;
-    margin-left:25%; /* instead of transform for centering */
-    z-index: 0; /* stacking base */
+    margin-left:25%;
+    z-index: 0; 
     top: 10px;
     bottom: 30px;
 }
