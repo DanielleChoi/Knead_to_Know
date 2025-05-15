@@ -7,14 +7,6 @@ canva{
     display: block;
 }
 
-.TopBar{
-    background-color: rgb(210 152 111);
-    margin-bottom: 80px;
-    font-family: "Gluten";
-    padding: 20px; 
-    width:100%;
-
-}
 
 .h1{
     color:rgb(65, 22, 9);
@@ -26,6 +18,11 @@ canva{
 .homebread{
     margin-top:-105px;
     margin-left:-40px;
+    background-color: rgb(210 152 111);
+    margin-bottom: 80px;
+    padding: 20px; 
+    width:100%;
+
 }
 .topbread{
     position:absolute;
