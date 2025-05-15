@@ -17,10 +17,11 @@ canva{
 }
 
 h1 {
-    color:  rgb(255, 255, 255);
+    color:  #D2986F;
     font-family: 'Gluten', sans-serif;
     font-size: 3em;
     margin: 5px;
+    text-align: center;
  }
 
  
