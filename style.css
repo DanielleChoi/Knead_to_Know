@@ -20,6 +20,37 @@ canva{
     color:rgb(65, 22, 9);
     position: fixed;
     font-family: "Gluten" ;
+    
+}
+
+.homebread{
+    margin-top:-105px;
+    margin-left:-40px;
+}
+.topbread{
+    position:absolute;
+    margin-top:-50px;
+    margin:left 40%;
+}
+.slice{
+    position:absolute;
+    margin-left:375px;
+    margin-top:-53px;
+}
+.butter{
+    position:absolute;
+    margin-left:755px;
+    margin-top:-51px;  
+}
+.resources{
+    position:absolute;
+    margin-left:1180px;
+    margin-top:-52px; 
+}
+.login{
+    position:absolute;
+    margin-left:1450px;
+    margin-top:-75px; 
 }
 .TestPageTitle{
     position:relative;
