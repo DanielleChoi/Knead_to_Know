@@ -29,7 +29,7 @@ h1 {
  
 h2{
     color:rgb(65, 22, 9);
-    position: fixed;
+    position: absolute;
     font-family: "Gluten" ;
     font-size: 30px;
     
