@@ -96,7 +96,7 @@ h2{
 }
 
 .RecipeInfo {
-    position: relative;
+    position: absolute;
     margin-top: 15%;
     margin-left: 10%;
     z-index: 1; 
