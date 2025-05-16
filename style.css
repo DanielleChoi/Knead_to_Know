@@ -77,14 +77,6 @@ h2{
     
 }
 
-.h3{
-    color:rgb(65, 22, 9);
-    position: fixed;
-    margin-top: 5%;
-    font-family: "Gluten" ;
-    
-}
-
 .recipePaper {
     position: relative; 
     width: 50%;
@@ -102,6 +94,14 @@ h2{
     margin-left: 10%;
     z-index: 1; 
     padding: 20px;
+}
+
+h3{
+    color:rgb(65, 22, 9);
+    position: fixed;
+    margin-top: 5%;
+    font-family: "Gluten" ;
+    
 }
 
 .QuizSection {
