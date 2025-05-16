@@ -103,6 +103,7 @@ h2{
 }
 
 .QuizSection {
+    position: relative;
     margin-left:12%;
     margin-top: 3%;
     padding: 20px;
