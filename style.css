@@ -77,13 +77,6 @@ h2{
     font-size: 45px;
     
 }
-.RecipeInfo {
-    position: relative;
-    margin-top: 200px;
-    margin-left: 10%;
-    z-index: 1; 
-    padding-top: 20px;
-}
 .recipePaper {
     position: relative; 
     width: 50%;
@@ -94,7 +87,13 @@ h2{
     top: 10px;
     bottom: 30px;
 }
-
+.RecipeInfo {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 10%;
+    z-index: 1; 
+    padding-top: 20px;
+}
 h3{
     color:rgb(65, 22, 9);
     position: relative;
