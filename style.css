@@ -98,7 +98,7 @@ h2{
 
 h3{
     color:rgb(65, 22, 9);
-    position: fixed;
+    position: absolute;
     margin-top: 5%;
     font-family: "Gluten" ;
     
