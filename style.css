@@ -96,7 +96,7 @@ h2{
 
 .RecipeInfo {
     position: absolute;
-    top: 20%;
+    top: 5%;
     left: 10%;
     z-index: 1; 
     padding: 20px;
@@ -104,6 +104,7 @@ h2{
 
 .QuizSection {
     margin-left:12%;
+    margin-top: 3%;
     padding: 20px;
     background: #f9f9f9;
     border-radius: 8px;
