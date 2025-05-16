@@ -50,16 +50,7 @@ h1 {
 }
 
 
-/* EVERYTHING ABOVE IS TOP BAR */
-.header{
-    z-index:-10;
-}
 
-.top{
-    display: flex;
-    justify-content: space-evenly;
-    z-index: 10;
-}
 
 .rectangle {
     position: fixed;
