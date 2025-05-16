@@ -90,9 +90,10 @@ h2{
 
 .RecipeInfo {
     position: absolute;
-    margin-top: 400px;
+    margin-top: 30%;
     margin-left: 10%;
     z-index: 1; 
+    padding: 20px;
 }
 h3{
     color:rgb(65, 22, 9);
