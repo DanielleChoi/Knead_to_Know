@@ -65,7 +65,7 @@ h1 {
     margin-top: 13%;
     margin-left: 6%;
     font-size: 30px;
-    padding: 20px;
+    padding-bottom: 30px;
 }
 
 h2{
@@ -79,7 +79,7 @@ h2{
 }
 .RecipeInfo {
     position: relative;
-    margin-top: 40%;
+    margin-top: 200px;
     margin-left: 10%;
     z-index: 1; 
     padding-top: 20px;
