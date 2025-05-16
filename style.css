@@ -84,7 +84,7 @@ h2{
 }
 
 .recipePaper {
-    position: absolute; 
+    position: relative; 
     width: 50%;
     height: 2000px;
     background: white;
@@ -95,7 +95,7 @@ h2{
 }
 
 .RecipeInfo {
-    position: relative;
+    position: absolute;
     top: 20%;
     left: 10%;
     z-index: 1; 
