@@ -84,7 +84,7 @@ h2{
 }
 
 .recipePaper {
-    position: relative; 
+    position: absolute; 
     width: 50%;
     height: 2000px;
     background: white;
