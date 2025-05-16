@@ -57,16 +57,6 @@ h1 {
     margin-top:-75px; 
 }
 
-.startKneading{
-    position:relative;
-    color:rgb(26, 6, 0);
-    font-family: "Gluten";
-    padding: 20px;
-    margin-top: 15%;
-    margin-left: 6%;
-    font-size: 30px;
-    padding-bottom: 30px;
-}
 
 h2{
     color:rgb(65, 22, 9);
@@ -79,9 +69,20 @@ h2{
     
 }
 
+.startKneading{
+    position:relative;
+    color:rgb(26, 6, 0);
+    font-family: "Gluten";
+    padding: 20px;
+    margin-top: 15%;
+    margin-left: 6%;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
 .RecipeInfo {
     position: absolute;
-    margin-top: 70%;
+    margin-top: 40%;
     margin-left: 10%;
     z-index: 1; 
     padding-top: 20px;
