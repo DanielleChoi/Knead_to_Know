@@ -83,8 +83,8 @@ h1 {
 
 .RecipeInfo {
     position: absolute;
-    top: 30px;
-    left: 15%;
+    top: 20%;
+    left: 10%;
     z-index: 1; 
     padding: 20px;
 }
