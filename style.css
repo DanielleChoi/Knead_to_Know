@@ -60,7 +60,7 @@ h1 {
 
 h2{
     color:rgb(65, 22, 9);
-    position: relative;
+    position: absolute;
     font-family: "Gluten" ;
     margin-top: 0%;
     margin-left: 6%;
