@@ -48,9 +48,7 @@ h1 {
     margin-left:1450px;
     margin-top:-70px; 
 }
-
-
-
+/* all above is top */
 
 .rectangle {
     position: fixed;
@@ -66,6 +64,7 @@ h1 {
 .slice_of_sound{
     color: #432818;
     font-family: 'Gluten', sans-serif;
+    top: 50px;
     margin-top: 30px;
     margin-bottom: 10px;
     text-align: center;
@@ -74,7 +73,7 @@ h1 {
 .text{
     color: #81593E;
     font-family: 'Gluten', sans-serif;
-    top: 140px;
+    top: 100px;
     text-align: center;
     font-size: 20px;
     margin-top: 10px;
@@ -105,4 +104,24 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     z-index:10;
+}
+
+
+
+.focaccia_text{
+    color: #432818;
+    font-family: 'Gluten', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 0px;
+}
+
+.white_text{
+    color: #432818;
+    font-family: 'Gluten', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 0px;
 }
