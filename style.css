@@ -16,7 +16,7 @@ canva{
     margin:-10px;
 }
 
-h1 {
+.h1 {
     color:  #D2986F;
     background-color: #D2986F;
     font-family: 'Gluten', sans-serif;
@@ -26,20 +26,6 @@ h1 {
     text-align: center;
  }
 
- 
-.h2{
-    color:rgb(65, 22, 9);
-    position: fixed;
-    font-family: "Gluten" ;
-    
-}
-
-.h3{
-    color:rgb(65, 22, 9);
-    position: fixed;
-    font-family: "Gluten" ;
-    
-}
 .homebread{
     margin-top:-105px;
     margin-left:-40px;
@@ -86,6 +72,21 @@ h1 {
     z-index: 0; 
     top: 10px;
     bottom: 30px;
+}
+
+.h2{
+    color:rgb(65, 22, 9);
+    position: fixed;
+    font-family: "Gluten" ;
+    font-size: 
+    
+}
+
+.h3{
+    color:rgb(65, 22, 9);
+    position: fixed;
+    font-family: "Gluten" ;
+
 }
 
 .RecipeInfo {
