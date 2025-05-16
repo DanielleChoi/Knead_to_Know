@@ -70,7 +70,7 @@ h2{
 }
 
 .startKneading{
-    position:relative;
+    position:absolute;
     color:rgb(26, 6, 0);
     font-family: "Gluten";
     padding: 20px;
