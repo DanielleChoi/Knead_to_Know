@@ -121,8 +121,10 @@ h1 {
 .white_text{
     color: #432818;
     font-family: 'Gluten', sans-serif;
-    font-size: 30px;
+    font-size: 27px;
     text-align: center;
     line-height: 50px;
     margin-bottom: 0px;
+    padding:50px;
+
 }
