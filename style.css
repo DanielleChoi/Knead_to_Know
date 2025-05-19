@@ -24,34 +24,34 @@ h1 {
     margin-left:-40px;
 }
 .topbread{
-    position:fixed;
+    position:absolute;
     margin-top:-50px;
     margin:left 40%;
 }
 .slice{
-    position:fixed;
+    position:absolute;
     margin-left:350px;
     margin-top:-50px;
 }
 .butter{
-    position:fixed;
+    position:absolute;
     margin-left:730px;
     margin-top:-51px;  
 }
 .resources{
-    position:fixed;
+    position:absolute;
     margin-left:1100px;
     margin-top:-50px; 
 }
 .login{
-    position:fixed;
+    position:absolute;
     margin-left:1450px;
     margin-top:-70px; 
 }
 /* all above is top */
 
 .rectangle {
-    position: fixed;
+    position: absolute;
     top: 180px;
     right: 20px;
     width: 98%;
@@ -111,17 +111,22 @@ h1 {
 .focaccia_text{
     color: #432818;
     font-family: 'Gluten', sans-serif;
-    font-size: 30px;
+    font-size: 27px;
     text-align: center;
     line-height: 50px;
     margin-bottom: 0px;
+    padding-left:90px;
+    padding-right:90px;
 }
 
 .white_text{
     color: #432818;
     font-family: 'Gluten', sans-serif;
-    font-size: 30px;
+    font-size: 27px;
     text-align: center;
     line-height: 50px;
     margin-bottom: 0px;
+    padding-left:90px;
+    padding-right:90px;
+
 }
