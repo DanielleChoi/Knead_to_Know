@@ -125,10 +125,21 @@
   
       document.getElementById("result").textContent = result;
 
-      if (result === "Rye Bread") {
-        window.location.href = "rye.html";
-  }
+      const breadPages = {
+        "Rye Bread": "rye.html",
+        "Baguette": "baguette.html",
+        "Croissant": "croissant.html",
+        "White Bread": "white.html",
+        "Sourdough": "sourdough.html",
+        "Focaccia": "focaccia.html",
+        "Pita": "pita.html"
+    };
 
+    // Check if the result exists in the breadPages object and redirect
+    if (breadPages[result]) {
+        window.location.href = breadPages[result];
+    }
+    
     document.getElementById("breadQuiz").addEventListener("submit", calculateBreadResult);
 </script>
 
