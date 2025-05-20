@@ -25,12 +25,19 @@
 
 <div class="top">
   <img class = "homebread" src ="images/mainbread.png" width = "300">
-  <img class = "topbread" src = "images/breadtype.png" width = "140">
+  <img class = "topbread" img id="breadBtn" src="images/breadtype.png" alt="Bread Button" width = "140">
+<script>
+  document.getElementById("breadBtn").addEventListener("click", function() {
+    window.location.href = "slice_of_sound.html";
+  });
+</script>
+
   <img class = "slice" src = "images/slice.png" width = "160">
   <img class = "butter" src = "images/butter.png" width = "220">
   <img class = "resources" src = "images/resources.png" width = "150">
   <img class = "login" src = "images/login.png" width = "145">
 </div>
+
 
 
     <div class="rectangle"></div>
@@ -40,9 +47,27 @@
     <p class = "text"><b>You're looking like a stud muffin today!</b></p>
    
     <div class="image_row1">
-      <img class = "rye" src = "images/RyeImage.png" width ="200px">
-      <img class = "baguette" src = "images/BaguetteImage.png" width = "200px">
-      <img class = "sourdough" src = "images/SourdoughImage.png" width = "200px">
+      <img class = "rye" image id="ryeBtn" src = "images/RyeImage.png" alt="rye_button" width ="200px">
+      <script>
+        document.getElementById("ryeBtn").addEventListener("click", function() {
+          window.location.href = "rye.html";
+        });
+      </script>
+
+      <img class = "baguette" image id="baguetteBtn" src = "images/BaguetteImage.png" alt="baguette_button" width = "200px">
+      <script>
+        document.getElementById("baguetteBtn").addEventListener("click", function() {
+          window.location.href = "baguette.html";
+        });
+      </script>
+
+      <img class = "sourdough" image id="sourdoughBtn" src = "images/SourdoughImage.png" alt="sourdough_button" width = "200px">
+      <script>
+        document.getElementById("sourdoughBtn").addEventListener("click", function() {
+          window.location.href = "sourdough.html";
+        });
+      </script>
+
     </div>
 
     <div class="text_row1">
@@ -52,11 +77,40 @@
     </div>
 
     <div class="image_row2">
-      <img class ="croissant" src ="images/CroissantImage.png" width = "250px">
-      <img class ="pita" src = "images/PitaImage.png" width="200px">
-      <img class ="focaccia" src = "images/FocacciaImage.png" width ="250px">
-      <img class ="white" src = "images/WhitebreadImage.png" width = "250px">
+      <img class ="croissant" img id="croissantBtn" src ="images/CroissantImage.png" alt="croissant_button" width = "250px">
+      <script>
+        document.getElementById("croissantBtn").addEventListener("click", function() {
+          window.location.href = "croissant.html";
+        });
+      </script>
+
+      <img class ="pita" img id="pitaBtn" src = "images/PitaImage.png" alt="pita_button" width="200px">
+      <script>
+        document.getElementById("pitaBtn").addEventListener("click", function() {
+          window.location.href = "pita.html";
+        });
+      </script>
+
+      <img class ="focaccia" img id="focacciaBtn" src = "images/FocacciaImage.png" alt="focaccia_button" width ="250px">
+      <script>
+        document.getElementById("focacciaBtn").addEventListener("click", function() {
+          window.location.href = "focaccia.html";
+        });
+      </script>
+
+      <img class ="white" img id="whiteBtn" src = "images/WhitebreadImage.png" alt="white_button" width = "250px">
+      <script>
+        document.getElementById("whiteBtn").addEventListener("click", function() {
+          window.location.href = "white.html";
+        });
+      </script>
+
+
     </div>
+
+
+
+
 
     <div class = "text_row2">
       <h2>Croissant</h2>
