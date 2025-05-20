@@ -21,11 +21,18 @@
 
 </header>
 <img class = "homebread" src ="images/mainbread.png" width = "300">
-<img class = "topbread" src = "images/breadtype.png" width = "140">
 <img class = "slice" src = "images/slice.png" width = "170">
 <img class = "butter" src = "images/butter.png" width = "230">
 <img class = "resources" src = "images/resources.png" width = "150">
 <img class = "login" src = "images/login.png" width = "145">
+
+<img class = "topbread" img id="breadBtn" src="images/breadtype.png" alt="Bread Button" width = "140">
+
+<script>
+  document.getElementById("breadBtn").addEventListener("click", function() {
+    window.location.href = "slice_of_sound.html";
+  });
+</script>
 
 <body>
 
@@ -116,12 +123,15 @@
           result = "Please answer all questions!";
       }
   
-      alert(result);
       document.getElementById("result").textContent = result;
+
+      if (result === "Rye Bread") {
+        window.location.href = "rye.html";
   }
 
     document.getElementById("breadQuiz").addEventListener("submit", calculateBreadResult);
 </script>
+
 
 </main>
 </body>
