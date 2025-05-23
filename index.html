@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html land = "en">
+<html lang = "en">
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
         <meta charset="utf-8" />
@@ -11,23 +11,152 @@
   <!-- Google Fonts link for the Gluten font -->
   <link href="https://fonts.googleapis.com/css2?family=Gluten&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+ 
 
 </body>
 </head>
 <header>
-<p class="TopBar"> BreadTypes ⌄   </p>
-<h1>RECIPE</h1>
-<h2 class ="TestPageTitle"><b>START MIXING</b></h2>
+
+  <h1>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</h1>
+
 </header>
+<img class = "homebread" src ="images/mainbread.png" width = "300">
+<img class = "slice" src = "images/slice.png" width = "170">
+<img class = "butter" src = "images/butter.png" width = "230">
+<img class = "resources" src = "images/resources.png" width = "150">
+<img class = "login" src = "images/login.png" width = "145">
+
+<img class = "topbread" img id="breadBtn" src="images/breadtype.png" alt="Bread Button" width = "140">
+
+<script>
+  document.getElementById("breadBtn").addEventListener("click", function() {
+    window.location.href = "slice_of_sound.html";
+  });
+</script>
 
 <body>
-<p> Take the quiz to find out YOUR bread personality! </p>
 
-<div class = "recipePaper"></div>
+  <div class = "recipePaper">
 
-<img class = "recipeInfo" src = "images/RecipeInfo.png" width = "1000">
+    <h3 class ="startKneading"><b>START KNEADING</b></h2>
+    <h2> RECIPE </h2>
+
+  <img class = "recipeInfo" src = "images/Recipe_info.png" width = "1000">
+
+  <div class="QuizSection">
+    <h3>Quick Quiz:</h3>
+    <form id="breadQuiz">
+        <p>1. Someones trying to cheat off of you on a test, what do you do?</p>
+        <label><input type="radio" name="q1" value="1"> Ignore it</label><br> 
+        <label><input type="radio" name="q1" value="5"> Rat them out</label><br> 
+        <label><input type="radio" name="q1" value="6"> Cheat off of them too</label><br> 
+        <label><input type="radio" name="q1" value="7"> help them out</label><br> 
+
+        <p>2. You get to go on a nice trip! Where would you like to go?</p>
+        <label><input type="radio" name="q2" value="4"> Camping in the mountains</label><br> 
+        <label><input type="radio" name="q2" value="6"> Roadtrip to wherever!</label><br> 
+        <label><input type="radio" name="q2" value="5"> A nice sunny beach day</label><br> 
+        <label><input type="radio" name="q2" value="1"> NONE. I'm staying home</label><br> 
+
+        <p>3. After a long day at work/school, what would you do first?</p>
+        <label><input type="radio" name="q3" value="3"> Take a loonng nap</label><br> 
+        <label><input type="radio" name="q3" value="2"> Finish my work right away!</label><br> 
+        <label><input type="radio" name="q3" value="6"> Eat eat eat!</label><br> 
+        <label><input type="radio" name="q3" value="7"> I don't go home, too many extracurriculars :')</label><br>
+
+        <p>4. You see a little girl selling chocolates at the entrance of the grocery store. You…</p>
+        <label><input type="radio" name="q4" value="4">Buy a few from her</label><br>
+        <label><input type="radio" name="q4" value="1"> Avoid all eye contact and keep walking in</label><br>
+        <label><input type="radio" name="q4" value="2"> Give up, you can always go to the store later</label><br>
+        <label><input type="radio" name="q4" value="7"> Strike up a conversation with her</label><br>
+
+        <p>5. When the teacher calls on you, what do you do</p>
+        <label><input type="radio" name="q5" value="1"> Awkwardly stare at them</label><br>
+        <label><input type="radio" name="q5" value="6">Give a strong confident answer even if youre unsure</label><br>
+        <label><input type="radio" name="q5" value="2"> try your best and cry after</label><br>
+        <label><input type="radio" name="q5" value="3"> Pretend you didnt hear them</label><br>
+
+        <p>6. When the waiter spills soup on you, what do you do</p>
+        <label><input type="radio" name="q6" value="3"> Apologize to them</label><br>
+        <label><input type="radio" name="q6" value="1"> Yell at the them</label><br>
+        <label><input type="radio" name="q6" value="6"> Clean the soup and act like nothing happened</label><br>
+        <label><input type="radio" name="q6" value="5"> CRY</label><br>
+
+        <p>7. You just fail your math test, what do you do</p>
+        <label><input type="radio" name="q7" value="5"> Just go on with your day</label><br>
+        <label><input type="radio" name="q7" value="2"> Tell your teacher that theyre WRONG</label><br>
+        <label><input type="radio" name="q7" value="4">  Go through an existential crisis</label><br>
+        <label><input type="radio" name="q7" value="7"> LOCK IN</label><br>
+        <button type="submit">Submit Answers</button>
+    </form>
+</div>
+</div>
+
+<script>
+  function calculateBreadResult(event) {
+      event.preventDefault();
+  
+      let total = 0;
+      const form = document.getElementById("breadQuiz");
+      const formData = new FormData(form);
+  
+      for (let [name, value] of formData.entries()) {
+          total += parseInt(value);
+      }
+  
+      let result;
+      if (total >= 7 && total <= 11) {
+          result = "Rye Bread";
+      } else if (total >= 12 && total <= 16) {
+          result = "Baguette";
+      } else if (total >= 17 && total <= 21) {
+          result = "Croissant";
+      } else if (total >= 22 && total <= 26) {
+          result = "White Bread";
+      } else if (total >= 27 && total <= 31) {
+          result = "Sourdough";
+      } else if (total >= 32 && total <= 36) {
+          result = "Focaccia";
+      } else if (total >= 37 && total <= 46) {
+          result = "Pita";
+      } else {
+          alert("Please answer all questions!");
+          return;
+      }
+      
+let redirectUrl;
+switch (result) {
+  case "Rye Bread":
+    redirectUrl = "rye.html";
+    break;
+  case "Baguette":
+    redirectUrl = "baguette.html";
+    break;
+  case "Croissant":
+    redirectUrl = "croissant.html";
+    break;
+  case "White Bread":
+    redirectUrl = "white.html";
+    break;
+  case "Sourdough":
+    redirectUrl = "sourdough.html";
+    break;
+  case "Focaccia":
+    redirectUrl = "focaccia.html";
+    break;
+  case "Pita":
+    redirectUrl = "pita.html";
+    break;
+  }
+  
+  window.location.href = redirectUrl;
+}
+
+document.getElementById("breadQuiz").addEventListener("submit", calculateBreadResult);
+
+</script>
+
 
 </main>
 </body>
 </html>
-</head>
