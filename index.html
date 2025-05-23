@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html land = "en">
+<html lang = "en">
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
         <meta charset="utf-8" />
@@ -120,17 +120,11 @@
       } else if (total >= 37 && total <= 46) {
           result = "Pita";
       } else {
-          result = "Please answer all questions!";
+          alert("Please answer all questions!");
+          return;
       }
-  
-
-      document.getElementById("result").textContent = result;
-  }
-
-    document.getElementById("breadQuiz").addEventListener("submit", calculateBreadResult);
-
-    let redirectUrl;
-
+      
+let redirectUrl;
 switch (result) {
   case "Rye Bread":
     redirectUrl = "rye.html";
@@ -153,12 +147,12 @@ switch (result) {
   case "Pita":
     redirectUrl = "pita.html";
     break;
-  default:
-    alert("Please answer all questions!");
-    return;
+  }
+  
+  window.location.href = redirectUrl;
 }
 
-window.location.href = redirectUrl;
+document.getElementById("breadQuiz").addEventListener("submit", calculateBreadResult);
 
 </script>
 
