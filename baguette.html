@@ -22,7 +22,13 @@
 </html>
 </head>
 
-<img class = "homebread" src ="images/mainbread.png" width = "300">
+<img class = "homebread" img id="homeBtn" src="images/mainbread.png" alt="Home Button" width = "300">
+  <script>
+    document.getElementById("homeBtn").addEventListener("click", function() {
+      window.location.href = "homeindex.html";
+    });
+  </script>
+
 <img class = "topbread" img id="breadBtn" src="images/breadtype.png" alt="Bread Button" width = "140">
 <script>
   document.getElementById("breadBtn").addEventListener("click", function() {
@@ -41,7 +47,7 @@
      city or share with a group of friends over some cheese and wine. You're well-traveled and cosmopolitan, always ready for the next adventure, 
      but you've got a humble, down-to-earth soul. Beneath the golden crust, your reliable and uncomplicated—just pure, delightful flavor.
 </p>
-
+<p class = "white_text">You are VERY compatible with white, sourdough, and focaccia. You are NOT compatible with pita.</p>
 <p class = "white_text"> <b>Music recs:  The Smiths, Arctic Monkeys, Tyler the Creator, Lola Young</b></p>
 
 <div style="text-align: center;">
