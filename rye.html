@@ -22,7 +22,13 @@
 </html>
 </head>
 
-<img class = "homebread" src ="images/mainbread.png" width = "300">
+<img class = "homebread" img id="homeBtn" src="images/mainbread.png" alt="Home Button" width = "300">
+  <script>
+    document.getElementById("homeBtn").addEventListener("click", function() {
+      window.location.href = "homeindex.html";
+    });
+  </script>
+
 <img class = "topbread" img id="breadBtn" src="images/breadtype.png" alt="Bread Button" width = "140">
 <script>
   document.getElementById("breadBtn").addEventListener("click", function() {
@@ -42,7 +48,9 @@
     cozy night with a good book. It doesn’t mind being a little niche, finding pride in its unique flavor.
 </p>
 
-<p class = "white_text"> <b> Music recs:  Journey, Tears for Fears, Jalen Ngonda, Thee sacred souls, the fruit bats, Macabre Plaza</b></p>
+<p class = "white_text">You are VERY compatible with sourdough. You are NOT compatible with croissant.</p>
+
+<p class = "white_text"> <b> Music recs:  Journey, Tears for Fears, Jalen Ngonda, Thee Sacred Souls, The Fruit Bats, Macabre Plaza</b></p>
 
 <div style="text-align: center;">
 <img class ="white_page" src = "images/RyeImage.png" width ="400px"> 

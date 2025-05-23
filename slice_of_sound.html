@@ -24,7 +24,13 @@
 </head>
 
 <div class="top">
-  <img class = "homebread" src ="images/mainbread.png" width = "300">
+  <img class = "homebread" img id="homeBtn" src="images/mainbread.png" alt="Home Button" width = "300">
+  <script>
+    document.getElementById("homeBtn").addEventListener("click", function() {
+      window.location.href = "homeindex.html";
+    });
+  </script>
+
   <img class = "topbread" img id="breadBtn" src="images/breadtype.png" alt="Bread Button" width = "140">
 <script>
   document.getElementById("breadBtn").addEventListener("click", function() {

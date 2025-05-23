@@ -22,7 +22,13 @@
 </html>
 </head>
 
-<img class = "homebread" src ="images/mainbread.png" width = "300">
+<img class = "homebread" img id="homeBtn" src="images/mainbread.png" alt="Home Button" width = "300">
+  <script>
+    document.getElementById("homeBtn").addEventListener("click", function() {
+      window.location.href = "homeindex.html";
+    });
+  </script>
+
 <img class = "topbread" img id="breadBtn" src="images/breadtype.png" alt="Bread Button" width = "140">
 <script>
   document.getElementById("breadBtn").addEventListener("click", function() {
@@ -39,9 +45,8 @@
     flavor and chewy texture, sourdough is a bit quirky, perhaps a little more high-maintenance than others. It’s the result of patience, time, and nurturing—just like a good 
     conversation with someone who’s well-read and thoughtful. This bread has deep roots, with origins in ancient Egypt, and it thrives on its own natural process. Sourdough is 
     not easily rushed, and it’s best enjoyed when you’ve taken the time to appreciate its complexities. It’s a bread for those who savor life slowly, who find beauty in the unrefined.
-
 </p>
-
+<p class = "white_text">You are VERY compatible with rye, white, baguette, and focaccia. You are NOT compatible with crossaint.</p>
 <p class = "white_text"> <b>Music recs:  Frank Ocean, The Marias, Radiohead </b></p>
 
 <div style="text-align: center;">

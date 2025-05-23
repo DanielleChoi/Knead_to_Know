@@ -22,7 +22,13 @@
 </html>
 </head>
 
-<img class = "homebread" src ="images/mainbread.png" width = "300">
+<img class = "homebread" img id="homeBtn" src="images/mainbread.png" alt="Home Button" width = "300">
+  <script>
+    document.getElementById("homeBtn").addEventListener("click", function() {
+      window.location.href = "homeindex.html";
+    });
+  </script>
+
 <img class = "topbread" img id="breadBtn" src="images/breadtype.png" alt="Bread Button" width = "140">
 <script>
   document.getElementById("breadBtn").addEventListener("click", function() {
@@ -40,7 +46,7 @@
     vibe—whether it’s at a Parisian café or paired with a morning espresso. It doesn’t like to be rushed, and it’s often found in the quiet moments of the morning, basking in the 
     soft glow of sunlight. The croissant is a bread that doesn’t worry too much about the grind—it’s more about savoring life, even if just for a brief, flaky moment.
 </p>
-
+<p class = "white_text">You are VERY compatible with sourdough and white. You are NOT compatible with anyone else.</p>
 <p class = "white_text"> <b>Music recs:  Laufey, Frank Sinatra, Kali Uchis</b></p>
 
 <div style="text-align: center;">
