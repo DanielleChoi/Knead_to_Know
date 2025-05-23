@@ -124,13 +124,42 @@
       }
   
 
-      alert(result);
       document.getElementById("result").textContent = result;
   }
 
-
-
     document.getElementById("breadQuiz").addEventListener("submit", calculateBreadResult);
+
+    let redirectUrl;
+
+switch (result) {
+  case "Rye Bread":
+    redirectUrl = "rye.html";
+    break;
+  case "Baguette":
+    redirectUrl = "baguette.html";
+    break;
+  case "Croissant":
+    redirectUrl = "croissant.html";
+    break;
+  case "White Bread":
+    redirectUrl = "white.html";
+    break;
+  case "Sourdough":
+    redirectUrl = "sourdough.html";
+    break;
+  case "Focaccia":
+    redirectUrl = "focaccia.html";
+    break;
+  case "Pita":
+    redirectUrl = "pita.html";
+    break;
+  default:
+    alert("Please answer all questions!");
+    return;
+}
+
+window.location.href = redirectUrl;
+
 </script>
 
 
