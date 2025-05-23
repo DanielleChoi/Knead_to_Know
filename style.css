@@ -1,10 +1,15 @@
-
-html, body{
-    background-color: rgb(249 212 166)
+body {
+    background-color: #FFE6A7;
+    color:#FFE6A7;
 }
 
-canva{
-    display: block;
+/* Style for the header with the word "Bread" */
+header {
+    background-color: #D2986F;
+    color:#D2986F;
+    text-align: center;
+    padding: 10px;
+    margin:-10px;
 }
 
 
